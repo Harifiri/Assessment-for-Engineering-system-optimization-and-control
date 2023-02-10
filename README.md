@@ -1,9 +1,9 @@
 一、相关文件说明：
-1.<waytous-multi-vehicle-planning\code文件夹>：主要代码
-2.<waytous-multi-vehicle-planning\Ipopt-3.11.1-win64-intel13.1文件夹>：IPOPT开源求解器
-3.<waytous-multi-vehicle-planning\RefPath.npy文件>：参考线信息
+1.<code>：主要代码
+2.<Ipopt-3.11.1-win64-intel13.1>：IPOPT开源求解器
+3.<RefPath.npy>：参考线信息
 
-二、<waytous-multi-vehicle-planning\code文件夹>中各部分重要代码说明：
+二、<code>中各部分重要代码说明：
 1.<main.py>：
 	class IntersectionManage：自动交叉口管理最上游接口
 		方法1：planner(self, t, car_info_=None)：
